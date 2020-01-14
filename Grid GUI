@@ -52,10 +52,11 @@ clock = pygame.time.Clock()
  
 # -------- Main Program Loop -----------
 while not done:
-    for event in pygame.event.get():  # User did something
-        print pygame.event.get()
-        if event.type == pygame.QUIT:  # If user clicked close
-            done = True  # Flag that we are done so we exit this loop
+    # Track user events from keyboard/Mouse
+    for event in pygame.event.get():  
+        # Quit when the user clicks the close button
+        if event.type == pygame.QUIT:  
+            done = True  
         elif event.type == pygame.MOUSEBUTTONDOWN:
             # User clicks the mouse. Get the position
             pos = pygame.mouse.get_pos()
