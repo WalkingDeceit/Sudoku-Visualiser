@@ -17,7 +17,7 @@ Wikipedia : http://en.wikipedia.org/wiki/Sudoku
 ```
 python -m pip install pygame
 ```
-For spyder, Try using the following command in anaconda's prompt
+For spyder, Try using the following command in anaconda's prompt.
 ```
 conda install -c cogsci pygame
 ```
