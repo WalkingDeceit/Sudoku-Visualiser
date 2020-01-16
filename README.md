@@ -9,6 +9,7 @@ fail to satisfy the constraints of the problem at any point of time (by time, he
 is referred to the time elapsed till reaching any level of the search tree).
 
 Reference : https://www.geeksforgeeks.org/backtracking-algorithms
+Wikipedia : http://en.wikipedia.org/wiki/Sudoku 
 
 ## How to use
 - Ensure you have a working python version on the system
@@ -16,7 +17,7 @@ Reference : https://www.geeksforgeeks.org/backtracking-algorithms
 ```
 python -m pip install pygame
 ```
-For spyder, Try using
+For spyder, Try using the following command in anaconda's prompt
 ```
 conda install -c cogsci pygame
 ```
