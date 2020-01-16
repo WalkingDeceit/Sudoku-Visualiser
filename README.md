@@ -1,5 +1,5 @@
 # Sudoku-Visualiser
-This implementation of a sudoku solver is written in python programming language. 
+This implementation of a sudoku solver is written in python programming language.
 The python code was last edited in 2019.
 
 ## Algorithm
@@ -9,7 +9,6 @@ fail to satisfy the constraints of the problem at any point of time (by time, he
 is referred to the time elapsed till reaching any level of the search tree).
 
 Reference : https://www.geeksforgeeks.org/backtracking-algorithms
-Wikipedia : http://en.wikipedia.org/wiki/Sudoku 
 
 ## How to use
 - Ensure you have a working python version on the system
